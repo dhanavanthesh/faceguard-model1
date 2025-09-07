@@ -1,0 +1,40 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Face Recognition & Computer Vision
+insightface
+onnxruntime
+opencv-python
+numpy
+Pillow
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Data Processing & Visualization
+pandas
+matplotlib
+seaborn
+tqdm
+
+# Dataset Management
+kaggle
+
+# HTTP Requests & Utilities
+requests
+python-dotenv
+
+# Optional: GPU acceleration (uncomment if you have NVIDIA GPU with CUDA)
+# onnxruntime-gpu
+
+# Optional: TensorFlow for advanced mask detection (uncomment if needed)
+# tensorflow
+
+# Development dependencies (uncomment for development)
+# pytest
+# black
+# flake8

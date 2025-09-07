@@ -1,0 +1,194 @@
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+CLAUDE.md
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== VIRTUAL ENVIRONMENTS =====
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pyvenv.cfg
+# Backend specific virtual environment
+backend/face_recognition_env/
+
+# ===== ENVIRONMENT VARIABLES =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ===== DATABASE FILES =====
+*.db
+*.sqlite
+*.sqlite3
+
+# JSON database files (user data - keep local)
+backend/users_database.json
+backend/recognition_logs.json
+users_database.json
+recognition_logs.json
+
+# ===== UPLOADED FILES =====
+uploads/
+face_images/
+user_images/
+static/uploads/
+
+# ===== TRAINED MODELS ===== 
+# (Models are included in repo for easy deployment)
+# models/
+# trained_models/
+# *.pkl
+# *.joblib  
+# *.model
+# *.h5
+# *.pth
+# *.pt
+# *.onnx
+# *.tflite
+
+# ===== LOGS =====
+*.log
+logs/
+log/
+CLAUDE.md
+# ===== CACHE =====
+.cache/
+cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===== IDE FILES =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ===== OS FILES =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== JUPYTER NOTEBOOKS =====
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ===== NODE MODULES (Frontend) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===== REACT BUILD =====
+frontend/build/
+frontend/dist/
+
+# ===== TEMPORARY FILES =====
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ===== DOCUMENTATION BUILD =====
+docs/_build/
+site/
+
+# ===== PROFILING =====
+*.prof
+*.lprof
+
+# ===== SECRETS AND KEYS =====
+*.key
+*.pem
+*.cert
+secrets.json
+credentials.json
+
+# ===== BACKUP FILES =====
+*.bak
+*.backup
+*.old
+
+# ===== COMPRESSED FILES =====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== FACE RECOGNITION DATASETS =====
+# Downloaded dataset files
+face-mask-lite-dataset.zip
+face-mask-dataset.zip
+face-detection-images.zip
+
+# Extracted dataset directories
+mask_dataset1/
+mask_dataset2/
+face_dataset1/
+
+# Face recognition database and models (included for easy deployment)
+# face_database.pkl
+# face_recognition_model.pkl
+# model_info.pkl
+
+# InsightFace model cache (excluded - large files)
+.insightface/
+
+# ===== SYSTEM FILES =====
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== DOCKER =====
+Dockerfile.local
+docker-compose.override.yml
+
+# ===== MISC =====
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
