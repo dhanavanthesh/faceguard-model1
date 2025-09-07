@@ -745,12 +745,14 @@ const LiveRecognition = () => {
         closable={false}
         width={400}
         centered
-        bodyStyle={{ 
-          padding: '20px',
-          textAlign: 'center',
-          background: 'linear-gradient(135deg, #52c41a, #389e0d)',
-          color: 'white',
-          borderRadius: '8px'
+        styles={{
+          body: {
+            padding: '20px',
+            textAlign: 'center',
+            background: 'linear-gradient(135deg, #52c41a, #389e0d)',
+            color: 'white',
+            borderRadius: '8px'
+          }
         }}
         style={{ 
           '.ant-modal-content': { 

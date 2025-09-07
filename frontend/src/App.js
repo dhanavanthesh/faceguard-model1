@@ -72,7 +72,7 @@ const AppContent = () => {
       setSystemError(null);
       
       // Show notification for system issues
-      if (!healthResponse.services?.face_recognition || !healthResponse.services?.database) {
+      if (healthResponse.status !== 'healthy' || !statusResponse.success || !healthResponse.insightface_loaded) {
         notification.warning({
           message: 'System Warning',
           description: 'Some system components may not be fully operational',
@@ -141,9 +141,9 @@ const AppContent = () => {
 
     const { health, status } = systemStatus;
     
-    if (health.status === 'healthy' && status.system_ready) {
+    if (health.status === 'healthy' && health.insightface_loaded && status.success) {
       return { status: 'success', text: 'Operational' };
-    } else if (health.status === 'healthy') {
+    } else if (health.status === 'healthy' || health.status === 'initializing') {
       return { status: 'processing', text: 'Initializing' };
     } else {
       return { status: 'error', text: 'Error' };
@@ -230,10 +230,10 @@ const AppContent = () => {
               <Text style={{ color: 'white', fontSize: '12px' }}>
                 {statusIndicator.text}
               </Text>
-              {systemStatus?.status && (
+              {systemStatus?.health && (
                 <Text style={{ color: 'rgba(255, 255, 255, 0.5)', fontSize: '10px' }}>
-                  Users: {systemStatus.status.total_users || 0} | 
-                  DB: {systemStatus.status.face_database_size || 0}
+                  DB: {systemStatus.health.database_size || 0} | 
+                  Model: {systemStatus.health.insightface_loaded ? 'Loaded' : 'Loading'}
                 </Text>
               )}
             </Space>
@@ -293,7 +293,7 @@ const AppContent = () => {
           )}
 
           {/* System Not Ready Warning */}
-          {systemStatus && !systemStatus.status?.system_ready && !systemError && (
+          {systemStatus && (systemStatus.health?.status !== 'healthy' || !systemStatus.health?.insightface_loaded) && !systemError && (
             <Alert
               message="System Initializing"
               description="The face recognition system is starting up. Some features may not be available yet."
