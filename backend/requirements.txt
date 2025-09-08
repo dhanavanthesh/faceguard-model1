@@ -28,6 +28,9 @@ kaggle
 requests
 python-dotenv
 
+#sign detection
+mediapipe
+
 # Optional: GPU acceleration (uncomment if you have NVIDIA GPU with CUDA)
 # onnxruntime-gpu
 
