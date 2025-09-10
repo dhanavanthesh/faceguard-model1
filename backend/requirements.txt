@@ -8,6 +8,7 @@ python-multipart
 insightface
 onnxruntime
 opencv-python
+mediapipe
 numpy
 Pillow
 

@@ -1,0 +1,6086 @@
+[
+  {
+    "timestamp": "2025-09-09T23:12:34.777824",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-09T23:13:26.631002",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:06.239760",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:06.534053",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:07.017815",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:07.525748",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:08.027467",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:08.517492",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:09.067310",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:09.517901",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:10.037596",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:10.539112",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:11.026736",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:11.516284",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:12.015696",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:12.523917",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:13.037877",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:13.513547",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:14.077554",
+    "gesture": "HELP_Left",
+    "confidence": 0.95,
+    "is_emergency": true,
+    "hands_detected": 1,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:14.586023",
+    "gesture": "HELP_Left",
+    "confidence": 0.95,
+    "is_emergency": true,
+    "hands_detected": 1,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:15.368860",
+    "gesture": "HELP_Left",
+    "confidence": 0.95,
+    "is_emergency": true,
+    "hands_detected": 1,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:15.630353",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:16.050465",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:16.520007",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:17.025215",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:17.593695",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:18.041791",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:18.837537",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:19.119496",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:19.533278",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:20.348170",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:20.604848",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:21.042189",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:21.836303",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:22.097940",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:22.545879",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:23.334878",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:23.594533",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:24.203133",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:24.840309",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:25.122511",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:25.575183",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:26.350078",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:26.596338",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:27.061925",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:27.830731",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:28.215522",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:28.533435",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:29.733679",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:30.405560",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:31.778306",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:32.022375",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:32.239060",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:32.631665",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:33.067909",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:33.877334",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:34.115193",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:34.571506",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:35.417759",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:35.664697",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:37.438044",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:37.766966",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:38.206245",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:38.616436",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:39.192039",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:40.019796",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:40.427146",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:40.635428",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:41.297376",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:41.559946",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:42.090151",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:42.576370",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:43.357143",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:43.620743",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:44.045766",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:44.826620",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:45.100221",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:45.556615",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:46.349461",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:46.596098",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:47.039579",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:47.866497",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:48.163095",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:48.541163",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:49.338498",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:49.605997",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:43:50.083570",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:03.781950",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:11.450415",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:11.890839",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:12.772678",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:13.091682",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:13.587114",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:14.106001",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:14.512192",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:14.947432",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:15.684773",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:16.107597",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:16.457223",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:17.034563",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:17.449034",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:17.935839",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:18.511114",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:19.010104",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:19.447841",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:20.141741",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:20.671454",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:21.048245",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:21.581487",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:22.184773",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:22.465340",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:22.989061",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:23.510996",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:23.921888",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:24.412768",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:24.892127",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:25.385902",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:26.002894",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:26.452140",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:26.870410",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:27.369606",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:27.902936",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:28.383646",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:28.901144",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:29.399826",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:29.879654",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:30.363724",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:30.878141",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:31.366694",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:31.913989",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:32.387420",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:32.869316",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:33.365111",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:33.861070",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:34.364152",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:34.861947",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:35.345838",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:35.868089",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:36.358045",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:36.854640",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:37.382565",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:37.875077",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:38.454761",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:38.906798",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:39.436461",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:39.889810",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:40.373403",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:40.866262",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:41.380409",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:41.924328",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:42.359114",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:42.885341",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:43.381391",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:43.872527",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:44.388920",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:44.838676",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:45.343724",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:45.861784",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:46.338357",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:46.852224",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:47.357487",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:47.864140",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:48.354903",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:48.844612",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:49.394517",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:49.856405",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:50.367115",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:50.869533",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:51.343935",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:51.835294",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:52.338522",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:52.834038",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:53.333532",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:53.836508",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:54.331141",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:54.903320",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:55.397903",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:55.890376",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:56.397215",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:56.936536",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:57.380882",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:57.955115",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:58.409393",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:58.883995",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:59.377084",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:45:59.870110",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:00.362823",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:00.894356",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:01.371649",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:01.878753",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:02.541987",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:02.905914",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:03.359879",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:03.878498",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:04.388717",
+    "gesture": "HANDS_ON_HIPS",
+    "confidence": 0.8,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:04.872170",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:05.410529",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:05.904488",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:06.559585",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:06.894264",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:07.351629",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:07.862554",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:08.354643",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:08.849814",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:09.397045",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:09.863180",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:10.358549",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:10.921279",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:11.350263",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:11.873267",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:12.363996",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:12.861379",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:13.384081",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:13.882968",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:14.361961",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:14.861204",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:15.345947",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:15.848393",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:16.353096",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:16.846687",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:17.347181",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:17.852627",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:18.360369",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:18.881108",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:19.369624",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:19.886554",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:20.448948",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:20.858401",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:21.354074",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:21.888734",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:22.380090",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:22.879949",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:23.368001",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:23.852356",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:24.366460",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:24.855102",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:25.356050",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:25.883604",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:26.481694",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:26.872262",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:27.404454",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:27.877250",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:28.375092",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:28.885280",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:29.373244",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:29.875334",
+    "gesture": "CHEST_TAP",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:30.389422",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:30.998968",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:31.556020",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:31.906173",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:32.455521",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:33.006428",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:33.543314",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:34.116703",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:34.534926",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:35.125275",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:35.609412",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:36.322526",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:36.945882",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:37.294943",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:37.757765",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:38.184998",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:38.513367",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:38.924492",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:39.471374",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:40.010481",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:40.407020",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:41.460727",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:41.791519",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:42.244669",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:43.503456",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:44.097241",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:44.402937",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:44.743826",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:45.510472",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:46.393097",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:46.783607",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:47.291415",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:47.891589",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:48.256514",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:48.619535",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:48.938380",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:49.413405",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:49.913072",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:50.603024",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:51.110993",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:51.442453",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:51.944081",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:52.574913",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:52.993754",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:53.419866",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:53.921699",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:54.368353",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:54.890730",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:55.388010",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:55.858113",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:56.362284",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:56.899246",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:57.437892",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:57.854352",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:58.351218",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:58.856566",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:59.363638",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:46:59.877910",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:00.350795",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:00.845684",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:01.351718",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:01.869410",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:02.453640",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:03.456832",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:04.425385",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:05.411051",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:06.408248",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:07.409078",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:08.407781",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:09.404919",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:10.412597",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:11.421068",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:12.408095",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:13.403109",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:14.434849",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:15.417518",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:16.413626",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:17.409652",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:18.409268",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:19.406133",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:20.398794",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:21.403835",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:22.403660",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:23.403560",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:24.396259",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:25.401498",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:26.391640",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:27.392308",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:28.392183",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:29.406799",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:29.859448",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:30.364581",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:30.842455",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:31.343774",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:31.880918",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:32.340146",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:32.965963",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:33.407262",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:33.854923",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:34.372185",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:34.885289",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:35.361066",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:35.973290",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:36.374946",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:36.862811",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:37.369056",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:37.861716",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:38.407239",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:39.030674",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:39.446136",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:39.917053",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:40.493092",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:40.893943",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:41.369441",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:41.932034",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:42.372640",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:42.946084",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:43.397313",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:43.880992",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:44.381464",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:44.979826",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:45.403768",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:45.879033",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:46.462487",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:46.886621",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:47.391641",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:48.114037",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:48.727487",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:49.233061",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:49.862654",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:50.194667",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:50.443080",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:51.086728",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:51.477953",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:52.127303",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:47:52.743481",
+    "gesture": "ARMS_CROSSED",
+    "confidence": 0.8,
+    "is_emergency": true,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:26.840322",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:27.029810",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:27.523774",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:28.060212",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:28.519781",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:29.019313",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:29.520224",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:30.042211",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:30.507670",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:31.009271",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:31.528205",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:32.013587",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:32.506636",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:33.027297",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:33.522225",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:34.036895",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:34.551398",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:35.014405",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:35.515694",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:36.035207",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:36.520146",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:37.047361",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:37.523744",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:38.027058",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:38.584871",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:39.114697",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:39.581422",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:40.120089",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:40.739797",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:41.146289",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:41.628969",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:42.109963",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:42.534293",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:43.045213",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:43.544523",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:44.032468",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:44.543070",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:45.008958",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:45.509841",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:46.015532",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:46.515561",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:47.044908",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:47.562500",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:48.011281",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:48.536463",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:49.011923",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:49.509925",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:50.026164",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:50.562885",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:51.011988",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:51.559964",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:52.069577",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:52.532355",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:53.018604",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:53.508666",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:54.030998",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:54.516872",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:55.025728",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:55.550786",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:56.029952",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:56.513679",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:57.013092",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:57.515798",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:58.024579",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:58.524176",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:59.020855",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:56:59.512924",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:00.006531",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:00.513331",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:01.173822",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:02.334224",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:03.335967",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:04.345552",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:05.338588",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:06.347633",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:07.325058",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:08.319145",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:09.359265",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:10.335183",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:11.328438",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:12.326387",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:13.338273",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:14.317430",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:15.328444",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:16.384247",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:17.343381",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:18.318242",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:19.330710",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:20.327974",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:21.331864",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:22.325598",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:23.357623",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:24.381704",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:25.336650",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:26.327518",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:27.328326",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:28.329087",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:29.335256",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:30.319564",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:31.325433",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:32.326063",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:33.338441",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:34.326944",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:35.326826",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:36.340994",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:37.326870",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:38.337189",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:39.327123",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:40.329465",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:41.322568",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:42.330126",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:43.320030",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:44.326559",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:45.330030",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:46.325014",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:47.350427",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:48.350359",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:49.339025",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:50.375207",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:51.339970",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:52.338326",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:53.320158",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:54.333987",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:55.336241",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:56.361994",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:57.259621",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:57.506055",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:58.027775",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T00:57:58.500142",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:41.793304",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:42.302513",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:42.736181",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:43.240032",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:43.747795",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:44.243275",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:44.741873",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:45.241703",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:45.811470",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:46.265297",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:46.743398",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:47.241820",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:47.758114",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:48.240433",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:48.742334",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:49.264850",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:49.735226",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:50.245885",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:50.742539",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:51.243227",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:51.790040",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:52.262906",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:52.738268",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:53.314501",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:53.740763",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:54.255825",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:54.783613",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:55.243655",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:55.739978",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:56.375592",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:56.739787",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:57.249483",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:57.760940",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:58.228485",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:58.749705",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:04:59.431684",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:05:00.337821",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:05:01.335810",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:05:02.344544",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:05:02.909582",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:05:03.328573",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:05:03.738288",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:04.594031",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:04.923582",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:05.318381",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:05.813717",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:06.461242",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:06.782492",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:07.279562",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:07.815572",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:08.378756",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:08.859159",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:09.327946",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:09.790910",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:10.308253",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:10.925014",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:11.326217",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:11.800811",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:14.925183",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:06:15.425312",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:06.601335",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:07.102558",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:07.542914",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:08.045695",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:08.574785",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:09.055536",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:09.555211",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:10.051189",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:10.568323",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:11.053800",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:11.559846",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:12.057048",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:12.607687",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:13.051540",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:13.554634",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:14.055644",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:14.612603",
+    "gesture": "THUMBS_UP_Right",
+    "confidence": 0.95,
+    "is_emergency": false,
+    "hands_detected": 1,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:15.089233",
+    "gesture": "OK_Right",
+    "confidence": 0.9,
+    "is_emergency": false,
+    "hands_detected": 1,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:15.915448",
+    "gesture": "OK_Right",
+    "confidence": 0.9,
+    "is_emergency": false,
+    "hands_detected": 1,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:16.180893",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:16.552781",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:17.066487",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:17.559020",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:18.049969",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:18.557302",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:19.056640",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:19.564597",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:20.042210",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:20.559070",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:21.061271",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:21.546650",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:22.054673",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:22.565947",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:23.053553",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:23.551811",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:24.116927",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:24.559874",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:25.057258",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:26.332388",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:27.345505",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:28.396599",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:29.345251",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:30.329201",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:31.343836",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:32.345821",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:33.339505",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:34.333006",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:35.343377",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:36.342078",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:37.336398",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:37.759659",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:38.047571",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:38.577932",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:39.063697",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:13:39.551740",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": false,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:14.003145",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:14.372941",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:14.731396",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:15.720509",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:16.039686",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:16.409177",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:17.069554",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:17.418376",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:17.780309",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:18.560677",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:18.896927",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:19.290898",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:20.157514",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:20.598180",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:20.924282",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:21.513957",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:21.810431",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:22.231194",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:23.046591",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:23.502589",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:23.867780",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:24.509301",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:24.790404",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:25.219674",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:26.105354",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:26.488783",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:26.744358",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:27.485926",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:27.776366",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:28.249788",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:29.014507",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:29.386017",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:29.687311",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:30.522059",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:30.782179",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:31.212033",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:31.736141",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:32.492144",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:32.741753",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:33.285365",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:34.040631",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:34.393064",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:34.863731",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:35.617675",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:35.880519",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:36.254317",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:38.696096",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:38.988026",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:39.850223",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  },
+  {
+    "timestamp": "2025-09-10T01:21:40.500630",
+    "gesture": "NONE",
+    "confidence": 0.0,
+    "is_emergency": false,
+    "hands_detected": 0,
+    "pose_detected": true,
+    "type": "sign_detection"
+  }
+]

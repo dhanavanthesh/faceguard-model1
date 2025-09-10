@@ -1,0 +1,57 @@
+{
+  "best_model": "random_forest",
+  "best_accuracy": 0.9965277777777778,
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z"
+  ],
+  "feature_size": 63,
+  "training_samples": 1438,
+  "trained_at": "2025-09-09T22:52:18.505369",
+  "models": {
+    "random_forest": {
+      "accuracy": 0.9965277777777778,
+      "training_time": 0.3270084857940674,
+      "path": "sign_models\\random_forest_sign_model.pkl"
+    },
+    "neural_network": {
+      "accuracy": 0.9375,
+      "training_time": 0.904266357421875,
+      "path": "sign_models\\neural_network_sign_model.pkl"
+    }
+  }
+}

@@ -168,7 +168,7 @@ face-detection-images.zip
 mask_dataset1/
 mask_dataset2/
 face_dataset1/
-
+backend/sign_datasets
 # Face recognition database and models (included for easy deployment)
 # face_database.pkl
 # face_recognition_model.pkl

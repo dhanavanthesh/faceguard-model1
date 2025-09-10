@@ -18,7 +18,9 @@ import {
   TeamOutlined,
   SettingOutlined,
   HeartOutlined,
-  ExclamationCircleOutlined
+  ExclamationCircleOutlined,
+  InteractionOutlined,
+  EyeOutlined
 } from '@ant-design/icons';
 
 // Components
@@ -26,6 +28,8 @@ import Dashboard from './components/Dashboard/Dashboard';
 import LiveRecognition from './components/LiveRecognition/LiveRecognition';
 import Registration from './components/Registration/Registration';
 import UserManagement from './components/UserManagement/UserManagement';
+import SignDetection from './components/SignDetection/SignDetection';
+import AvailableSigns from './components/AvailableSigns/AvailableSigns';
 
 // Services
 import apiService from './services/api';
@@ -107,6 +111,18 @@ const AppContent = () => {
       icon: <VideoCameraOutlined />,
       label: 'Live Recognition',
       title: 'Real-time Face Recognition'
+    },
+    {
+      key: '/sign-detection',
+      icon: <InteractionOutlined />,
+      label: 'Sign Detection',
+      title: 'Gesture & Sign Recognition'
+    },
+    {
+      key: '/available-signs',
+      icon: <EyeOutlined />,
+      label: 'Available Signs',
+      title: 'View All Detectable Gestures'
     },
     {
       key: '/registration',
@@ -308,6 +324,8 @@ const AppContent = () => {
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/live-recognition" element={<LiveRecognition />} />
+            <Route path="/sign-detection" element={<SignDetection />} />
+            <Route path="/available-signs" element={<AvailableSigns />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/user-management" element={<UserManagement />} />
             <Route path="*" element={<Navigate to="/dashboard" replace />} />

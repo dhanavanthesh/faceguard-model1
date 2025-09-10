@@ -28,7 +28,7 @@ try:
     from tensorflow import keras
     TENSORFLOW_AVAILABLE = True
 except ImportError:
-    print("⚠️ TensorFlow not available. Mask detection will use basic image processing.")
+    print("WARNING: TensorFlow not available. Mask detection will use basic image processing.")
     TENSORFLOW_AVAILABLE = False
 
 # Global variables
@@ -50,12 +50,12 @@ def initialize_insightface():
     """Initialize InsightFace buffalo_l model (Cell 1 functionality)"""
     global app
     
-    print("🚀 Loading InsightFace buffalo_l model...")
+    print("Loading InsightFace buffalo_l model...")
     
     try:
         import insightface
         from insightface.app import FaceAnalysis
-        print("✅ InsightFace imported successfully")
+        print("InsightFace imported successfully")
         
         # Try GPU first, fallback to CPU
         providers = ['CUDAExecutionProvider', 'CPUExecutionProvider']
@@ -65,34 +65,34 @@ def initialize_insightface():
             # Initialize face analysis with buffalo_l model (highest accuracy)
             app = FaceAnalysis(name='buffalo_l', providers=providers)
             app.prepare(ctx_id=ctx_id, det_size=(640, 640))
-            print("✅ InsightFace initialized with GPU support")
+            print(" InsightFace initialized with GPU support")
         except Exception as gpu_error:
-            print(f"⚠️ GPU initialization failed: {gpu_error}")
-            print("🔄 Trying CPU-only mode...")
+            print(f" GPU initialization failed: {gpu_error}")
+            print(" Trying CPU-only mode...")
             
             # Fallback to CPU only
             providers = ['CPUExecutionProvider']
             ctx_id = -1
             app = FaceAnalysis(name='buffalo_l', providers=providers)
             app.prepare(ctx_id=ctx_id, det_size=(640, 640))
-            print("✅ InsightFace initialized with CPU-only")
+            print(" InsightFace initialized with CPU-only")
         
         # Test with dummy image to ensure it works
         import numpy as np
         test_image = np.zeros((480, 640, 3), dtype=np.uint8)
         test_faces = app.get(test_image)
-        print(f"✅ Model test successful: detected {len(test_faces)} faces in test image")
+        print(f" Model test successful: detected {len(test_faces)} faces in test image")
         
         # Check available providers
         active_providers = getattr(app.models['detection'], 'providers', providers)
         gpu_available = any('CUDA' in str(provider) for provider in active_providers)
-        print("✅ GPU acceleration enabled" if gpu_available else "✅ Using CPU (may be slower)")
+        print(" GPU acceleration enabled" if gpu_available else " Using CPU (may be slower)")
             
         return True
         
     except Exception as e:
-        print(f"❌ Error loading InsightFace: {e}")
-        print("💡 Common fixes:")
+        print(f" Error loading InsightFace: {e}")
+        print(" Common fixes:")
         print("   - Install: pip install insightface onnxruntime")
         print("   - For GPU: pip install onnxruntime-gpu")
         print("   - Check internet connection for model download")
@@ -105,22 +105,22 @@ def initialize_mask_detector():
     """Initialize mask detection model"""
     global mask_detector
     
-    print("🎭 Initializing mask detection model...")
+    print(" Initializing mask detection model...")
     
     if not TENSORFLOW_AVAILABLE:
-        print("⚠️ TensorFlow not available, using basic mask detection")
+        print(" TensorFlow not available, using basic mask detection")
         mask_detector = "basic"
         return True
     
     try:
         # Try to load a pre-trained mask detection model
         # For now, we'll use a simple approach based on face region analysis
-        print("✅ Basic mask detection initialized")
+        print(" Basic mask detection initialized")
         mask_detector = "basic"
         return True
         
     except Exception as e:
-        print(f"❌ Error initializing mask detector: {e}")
+        print(f" Error initializing mask detector: {e}")
         mask_detector = None
         return False
 
@@ -200,12 +200,12 @@ def detect_mask_simple(face_image, face_bbox):
         return has_mask, mask_confidence
         
     except Exception as e:
-        print(f"❌ Error in mask detection: {e}")
+        print(f" Error in mask detection: {e}")
         return False, 0.0
 
 def download_and_extract_datasets():
     """Download and extract mask detection datasets using Kaggle API (Cell 1 functionality)"""
-    print("📥 Starting mask detection dataset download process...")
+    print(" Starting mask detection dataset download process...")
     
     import threading
     import time
@@ -235,29 +235,29 @@ def download_and_extract_datasets():
         # Import and setup Kaggle API
         try:
             import kaggle
-            print("✅ Kaggle API available")
+            print(" Kaggle API available")
         except ImportError:
-            print("📦 Installing Kaggle API...")
+            print(" Installing Kaggle API...")
             subprocess.check_call([sys.executable, "-m", "pip", "install", "kaggle"])
             import kaggle
             
         # Setup Kaggle credentials - use notebook credentials directly
-        print("💡 Setting up demo credentials from notebook...")
+        print(" Setting up demo credentials from notebook...")
         os.environ['KAGGLE_USERNAME'] = 'soundaryats24cse'
         os.environ['KAGGLE_KEY'] = 'ed8d7faa7b233596c35babba8761c00b'
-        print("✅ Demo Kaggle credentials configured")
+        print(" Demo Kaggle credentials configured")
         
         # Try to authenticate
         try:
             kaggle.api.authenticate()
-            print("✅ Kaggle authentication successful!")
+            print(" Kaggle authentication successful!")
         except Exception as e:
-            print(f"❌ Kaggle authentication failed: {e}")
-            print("📋 To setup your own Kaggle API:")
+            print(f" Kaggle authentication failed: {e}")
+            print(" To setup your own Kaggle API:")
             print("1. Go to https://www.kaggle.com/account")
             print("2. Create new API token")
             print("3. Set environment variables: KAGGLE_USERNAME and KAGGLE_KEY")
-            print("🔄 Creating sample structure instead...")
+            print(" Creating sample structure instead...")
             return create_sample_structure()
             
         # Download only dataset2 - focus on face-mask-dataset from notebook
@@ -267,11 +267,11 @@ def download_and_extract_datasets():
         if not os.path.exists('face-mask-dataset.zip'):
             download_complete2 = None
             try:
-                print("\n📥 Downloading face-mask-dataset...")
-                print("🔗 URL: https://www.kaggle.com/datasets/omkargurav/face-mask-dataset")
-                print("📊 Size: ~163 MB (7,553 images)")
-                print("⏳ Estimated download time: 2-5 minutes")
-                print("   └── Downloading dataset files...")
+                print("\n Downloading face-mask-dataset...")
+                print(" URL: https://www.kaggle.com/datasets/omkargurav/face-mask-dataset")
+                print(" Size: ~163 MB (7,553 images)")
+                print(" Estimated download time: 2-5 minutes")
+                print("    Downloading dataset files...")
                 
                 # Create a progress indicator
                 download_complete2 = threading.Event()
@@ -280,10 +280,10 @@ def download_and_extract_datasets():
                     chars = "|/-\\"
                     idx = 0
                     while not download_complete2.is_set():
-                        print(f"\r   └── Downloading... {chars[idx % len(chars)]}", end="", flush=True)
+                        print(f"\r    Downloading... {chars[idx % len(chars)]}", end="", flush=True)
                         idx += 1
                         time.sleep(0.2)
-                    print("\r   └── Download completed!     ")
+                    print("\r    Download completed!     ")
                 
                 progress_thread = threading.Thread(target=show_progress)
                 progress_thread.start()
@@ -300,34 +300,34 @@ def download_and_extract_datasets():
                 # Check file size
                 if os.path.exists('face-mask-dataset.zip'):
                     size = os.path.getsize('face-mask-dataset.zip') / (1024*1024)
-                    print(f"✅ Dataset 2 downloaded! ({size:.1f} MB)")
+                    print(f" Dataset 2 downloaded! ({size:.1f} MB)")
                     dataset_downloaded = True
                 else:
-                    print("❌ Download completed but file not found")
+                    print(" Download completed but file not found")
                     
             except Exception as e:
                 if download_complete2:  # Stop progress indicator  
                     download_complete2.set()
-                print(f"\r⚠️ Failed to download dataset 2: {e}")
+                print(f"\r Failed to download dataset 2: {e}")
         
         # Extract only dataset2
         extracted = False
                 
         if os.path.exists('face-mask-dataset.zip') and not os.path.exists('mask_dataset2'):
-            print("\n📂 Extracting face-mask-dataset...")
-            print("⏳ Extracting files to mask_dataset2/...")
+            print("\n Extracting face-mask-dataset...")
+            print(" Extracting files to mask_dataset2/...")
             extract_complete2 = None
             try:
                 extract_complete2 = threading.Event()
                 
                 def show_extract_progress():
-                    chars = "⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏"  # Spinning animation
+                    chars = ""  # Spinning animation
                     idx = 0
                     while not extract_complete2.is_set():
-                        print(f"\r   └── Extracting... {chars[idx % len(chars)]}", end="", flush=True)
+                        print(f"\r    Extracting... {chars[idx % len(chars)]}", end="", flush=True)
                         idx += 1
                         time.sleep(0.1)
-                    print("\r   └── Extraction completed!   ")
+                    print("\r    Extraction completed!   ")
                 
                 progress_thread = threading.Thread(target=show_extract_progress)
                 progress_thread.start()
@@ -340,31 +340,31 @@ def download_and_extract_datasets():
                 
                 # Count extracted files
                 file_count = sum(len(files) for _, _, files in os.walk('mask_dataset2'))
-                print(f"✅ Dataset 2 extracted! ({file_count} files)")
+                print(f" Dataset 2 extracted! ({file_count} files)")
                 extracted = True
             except Exception as e:
                 if extract_complete2:
                     extract_complete2.set()
-                print(f"\r⚠️ Failed to extract dataset 2: {e}")
+                print(f"\r Failed to extract dataset 2: {e}")
                 
         if dataset_downloaded or extracted:
-            print("✅ Dataset setup completed!")
+            print(" Dataset setup completed!")
             return True
         elif os.path.exists('mask_dataset1') or os.path.exists('mask_dataset2'):
-            print("✅ Found existing datasets!")
+            print(" Found existing datasets!")
             return True
         else:
-            print("⚠️ No datasets available, creating sample structure...")
+            print(" No datasets available, creating sample structure...")
             return create_sample_structure()
             
     except Exception as e:
-        print(f"⚠️ Dataset download error: {e}")
-        print("🔄 Creating sample structure instead...")
+        print(f" Dataset download error: {e}")
+        print(" Creating sample structure instead...")
         return create_sample_structure()
 
 def create_sample_structure():
     """Create sample data structure for testing"""
-    print("📊 Creating sample training data structure...")
+    print(" Creating sample training data structure...")
     
     try:
         # Create directory structure (only dataset2)
@@ -378,27 +378,27 @@ def create_sample_structure():
         for dir_path in dirs:
             os.makedirs(dir_path, exist_ok=True)
             
-        print("✅ Sample directory structure created!")
-        print("📋 To add real training data:")
+        print(" Sample directory structure created!")
+        print(" To add real training data:")
         print("1. Place face images in the created directories:")
         for dir_path in dirs:
             print(f"   - {dir_path}/")
         print("2. Use .jpg, .png, .jpeg, .bmp formats")
         print("3. Ensure images contain clear faces")
         print("4. Re-run training after adding images")
-        print("\n💡 The system will download the face-mask-dataset (163 MB) automatically!")
+        print("\n The system will download the face-mask-dataset (163 MB) automatically!")
         
         return True
         
     except Exception as e:
-        print(f"❌ Sample structure creation failed: {e}")
+        print(f" Sample structure creation failed: {e}")
         return False
 
 def preprocess_training_data():
     """Process training datasets (Cell 2 functionality)"""
     global training_embeddings, training_labels
     
-    print("📊 Processing training datasets...")
+    print(" Processing training datasets...")
     
     training_embeddings = []
     training_labels = []
@@ -411,14 +411,14 @@ def preprocess_training_data():
         dataset_paths.append('mask_dataset2')
         
     if not dataset_paths:
-        print("⚠️ No datasets found, using registration-only mode...")
+        print(" No datasets found, using registration-only mode...")
         return [], [], []
         
     label_count = defaultdict(int)
     person_id = 1
     
     for dataset_path in dataset_paths:
-        print(f"📂 Processing {dataset_path}...")
+        print(f" Processing {dataset_path}...")
         
         # Find all image files recursively
         image_extensions = ['*.jpg', '*.jpeg', '*.png', '*.bmp']
@@ -427,18 +427,18 @@ def preprocess_training_data():
         for ext in image_extensions:
             image_files.extend(glob.glob(f"{dataset_path}/**/{ext}", recursive=True))
             
-        print(f"🔍 Found {len(image_files)} images in {dataset_path}")
+        print(f" Found {len(image_files)} images in {dataset_path}")
         
         # Process images and create multiple identities  
         total_to_process = min(len(image_files), 400)
-        print(f"⏳ Processing {total_to_process} images for face detection...")
+        print(f" Processing {total_to_process} images for face detection...")
         
         for i, img_path in enumerate(image_files[:400]):  # Process more images
             try:
                 # Show progress every 10 images
                 if i % 10 == 0:
                     progress_pct = (i / total_to_process) * 100
-                    print(f"\r📊 Progress: {progress_pct:.1f}% ({i}/{total_to_process}) | Found faces: {len(training_embeddings)}", end="", flush=True)
+                    print(f"\r Progress: {progress_pct:.1f}% ({i}/{total_to_process}) | Found faces: {len(training_embeddings)}", end="", flush=True)
                 
                 # Create diverse labels for better training
                 path_parts = img_path.lower().split('/')
@@ -490,9 +490,9 @@ def preprocess_training_data():
                 continue
                 
         # Final progress update
-        print(f"\r✅ Processing completed! Found {len(training_embeddings)} faces in {total_to_process} images       ")
+        print(f"\r Processing completed! Found {len(training_embeddings)} faces in {total_to_process} images       ")
                 
-    print(f"\n📊 Training Data Summary:")
+    print(f"\n Training Data Summary:")
     for label, count in label_count.items():
         print(f"  {label}: {count} samples")
         
@@ -503,11 +503,11 @@ def train_models():
     global model_trained, face_database
     
     if not training_embeddings or len(set(training_labels)) <= 1:
-        print("⚠️ Insufficient diverse data, using cosine similarity method...")
+        print(" Insufficient diverse data, using cosine similarity method...")
         return False
         
-    print(f"\n🎯 Training advanced recognition model with {len(training_embeddings)} samples...")
-    print(f"👥 Number of unique identities: {len(set(training_labels))}")
+    print(f"\n Training advanced recognition model with {len(training_embeddings)} samples...")
+    print(f" Number of unique identities: {len(set(training_labels))}")
     
     # Convert to numpy arrays
     X = np.array(training_embeddings)
@@ -519,7 +519,7 @@ def train_models():
         X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
         
         # Train models
-        print("🤖 Training ensemble models...")
+        print(" Training ensemble models...")
         
         try:
             # Model 1: Support Vector Machine
@@ -534,8 +534,8 @@ def train_models():
             rf_pred = rf_model.predict(X_val)
             rf_accuracy = accuracy_score(y_val, rf_pred)
             
-            print(f"✅ SVM Model Accuracy: {svm_accuracy:.3f}")
-            print(f"✅ Random Forest Accuracy: {rf_accuracy:.3f}")
+            print(f" SVM Model Accuracy: {svm_accuracy:.3f}")
+            print(f" Random Forest Accuracy: {rf_accuracy:.3f}")
             
             # Select best model
             if svm_accuracy > rf_accuracy:
@@ -547,7 +547,7 @@ def train_models():
                 best_accuracy = rf_accuracy
                 model_type = "Random Forest"
                 
-            print(f"🏆 Best Model: {model_type} (Accuracy: {best_accuracy:.3f})")
+            print(f" Best Model: {model_type} (Accuracy: {best_accuracy:.3f})")
             
             # Save the trained model
             joblib.dump(best_model, 'face_recognition_model.pkl')
@@ -567,11 +567,11 @@ def train_models():
             return True
             
         except Exception as e:
-            print(f"⚠️ Model training error: {e}")
-            print("🔄 Using cosine similarity method instead...")
+            print(f" Model training error: {e}")
+            print(" Using cosine similarity method instead...")
             return False
     else:
-        print("⚠️ Insufficient data for supervised learning, using cosine similarity...")
+        print(" Insufficient data for supervised learning, using cosine similarity...")
         return False
 
 def create_face_database():
@@ -579,7 +579,7 @@ def create_face_database():
     global face_database
     
     if not training_embeddings:
-        print("⚠️ No training data available")
+        print(" No training data available")
         return
         
     unique_labels = list(set(training_labels))
@@ -612,8 +612,8 @@ def create_face_database():
                 'unmask_embeddings': unmask_embeddings if unmask_embeddings else []
             }
             
-    print(f"\n🎯 Enhanced Face Database Created:")
-    print(f"  👥 Total Identities: {len(face_database)}")
+    print(f"\n Enhanced Face Database Created:")
+    print(f"   Total Identities: {len(face_database)}")
     for name, data in face_database.items():
         print(f"  {name}: {data['samples']} samples (confidence: {data['confidence']:.1f})")
 
@@ -629,7 +629,7 @@ def enhanced_recognize_face(face_embedding, confidence_threshold=0.6, face_image
     if face_image is not None and face_bbox is not None and mask_detector is not None:
         wearing_mask, mask_confidence = detect_mask_simple(face_image, face_bbox)
         if wearing_mask:
-            print(f"🎭 Mask detected (confidence: {mask_confidence:.3f})")
+            print(f" Mask detected (confidence: {mask_confidence:.3f})")
             # Adjust confidence threshold for masked faces (they're harder to recognize)
             confidence_threshold = confidence_threshold * 0.8  # Lower threshold for masked faces
         
@@ -658,7 +658,7 @@ def enhanced_recognize_face(face_embedding, confidence_threshold=0.6, face_image
             if max_prob > confidence_threshold:
                 return predicted_name, max_prob
         except Exception as e:
-            print(f"⚠️ Model prediction failed: {e}")
+            print(f" Model prediction failed: {e}")
             
     # Method 2: Cosine similarity with mask awareness
     max_similarity = 0.0
@@ -675,7 +675,7 @@ def enhanced_recognize_face(face_embedding, confidence_threshold=0.6, face_image
                 mask_similarity = max(mask_similarities)
                 # Use the better of the two similarities
                 similarity = max(similarity, mask_similarity)
-                print(f"🎭 Mask-aware similarity for {name}: {mask_similarity:.3f} (regular: {cosine_similarity([face_embedding], [data['embedding']])[0][0]:.3f})")
+                print(f" Mask-aware similarity for {name}: {mask_similarity:.3f} (regular: {cosine_similarity([face_embedding], [data['embedding']])[0][0]:.3f})")
         
         # Adjust threshold based on training data quality and mask status
         adjusted_threshold = confidence_threshold * data['confidence']
@@ -712,7 +712,7 @@ def register_new_face(name, face_embedding, image_path=None):
                 face_database[name]['image_paths'] = []
             face_database[name]['image_paths'].append(image_path)
         
-        print(f"✅ Updated {name} with new sample (total: {face_database[name]['samples']})")
+        print(f" Updated {name} with new sample (total: {face_database[name]['samples']})")
     else:
         # Add new entry
         face_database[name] = {
@@ -721,16 +721,16 @@ def register_new_face(name, face_embedding, image_path=None):
             'confidence': 0.8,
             'image_paths': [image_path] if image_path else []
         }
-        print(f"✅ Registered new person: {name}")
+        print(f" Registered new person: {name}")
 
 def save_face_database():
     """Save face database to disk"""
     try:
         with open('face_database.pkl', 'wb') as f:
             pickle.dump(face_database, f)
-        print("✅ Face database saved")
+        print(" Face database saved")
     except Exception as e:
-        print(f"❌ Error saving database: {e}")
+        print(f" Error saving database: {e}")
 
 def load_face_database():
     """Load face database from disk"""
@@ -739,17 +739,17 @@ def load_face_database():
         if os.path.exists('face_database.pkl'):
             with open('face_database.pkl', 'rb') as f:
                 face_database = pickle.load(f)
-            print(f"✅ Face database loaded with {len(face_database)} identities")
+            print(f" Face database loaded with {len(face_database)} identities")
             return True
     except Exception as e:
-        print(f"❌ Error loading database: {e}")
+        print(f" Error loading database: {e}")
     return False
 
 def main():
     """Main mask-aware face recognition training function"""
-    print("🎭 Face Recognition with Mask Detection - Training System")
+    print(" Face Recognition with Mask Detection - Training System")
     print("=" * 70)
-    print("📋 This will:")
+    print(" This will:")
     print("   1. Initialize InsightFace buffalo_l model")
     print("   2. Download mask detection datasets from Kaggle (~300MB)")
     print("   3. Process masked and unmasked face images")
@@ -760,44 +760,44 @@ def main():
     
     # Check if user wants to continue
     try:
-        user_input = input("\n🚀 Start training? (y/n): ").lower().strip()
+        user_input = input("\n Start training? (y/n): ").lower().strip()
         if user_input not in ['y', 'yes']:
-            print("❌ Training cancelled by user")
+            print(" Training cancelled by user")
             return
     except KeyboardInterrupt:
-        print("\n❌ Training cancelled by user")
+        print("\n Training cancelled by user")
         return
     
     # Step 1: Initialize InsightFace and Mask Detection
-    print("\n📋 Step 1: Loading Models")
+    print("\n Step 1: Loading Models")
     if not initialize_insightface():
-        print("❌ Failed to initialize InsightFace")
+        print(" Failed to initialize InsightFace")
         return
-    print("✅ InsightFace buffalo_l model loaded successfully!")
+    print(" InsightFace buffalo_l model loaded successfully!")
     
     initialize_mask_detector()
-    print("✅ Mask detection initialized")
+    print(" Mask detection initialized")
     
     # Step 2: Download mask detection datasets
-    print("\n📋 Step 2: Setting up Mask Detection Datasets")
+    print("\n Step 2: Setting up Mask Detection Datasets")
     download_and_extract_datasets()
     
     # Step 3: Load existing database
-    print("\n📋 Step 3: Loading Existing Database")
+    print("\n Step 3: Loading Existing Database")
     if load_face_database():
-        print("✅ Previous face database loaded")
+        print(" Previous face database loaded")
     else:
-        print("📊 No previous database found - starting fresh")
+        print(" No previous database found - starting fresh")
     
     # Step 4: Process training data (mask-aware)
-    print("\n📋 Step 4: Processing Mask/Unmask Training Data")
+    print("\n Step 4: Processing Mask/Unmask Training Data")
     global training_embeddings, training_labels
     training_embeddings, training_labels, training_images = preprocess_training_data()
     
     # Step 5: Train models with mask awareness
-    print("\n📋 Step 5: Training ML Models with Mask Awareness")
+    print("\n Step 5: Training ML Models with Mask Awareness")
     if training_embeddings and len(training_embeddings) > 0:
-        print(f"📊 Found {len(training_embeddings)} face samples for training")
+        print(f" Found {len(training_embeddings)} face samples for training")
         
         # Show mask/unmask distribution
         masked_count = len([l for l in training_labels if 'masked' in l])
@@ -810,53 +810,53 @@ def main():
         save_face_database()
         
         print("\n" + "=" * 70)
-        print("🎉 MASK-AWARE TRAINING COMPLETED SUCCESSFULLY!")
+        print(" MASK-AWARE TRAINING COMPLETED SUCCESSFULLY!")
         print("=" * 70)
-        print(f"🎯 Recognition Method: {'ML Model + Cosine Similarity' if trained else 'Cosine Similarity'}")
-        print(f"👥 Face Database Size: {len(face_database)} identities")
-        print(f"🎭 Mask Detection: Enabled")
-        print(f"📊 Training Distribution:")
+        print(f" Recognition Method: {'ML Model + Cosine Similarity' if trained else 'Cosine Similarity'}")
+        print(f" Face Database Size: {len(face_database)} identities")
+        print(f" Mask Detection: Enabled")
+        print(f" Training Distribution:")
         print(f"   - Masked samples: {masked_count}")
         print(f"   - Unmasked samples: {unmasked_count}")
-        print(f"📁 Files Created:")
+        print(f" Files Created:")
         if os.path.exists('face_database.pkl'):
-            print("  ✅ face_database.pkl - Face embeddings database (with mask embeddings)")
+            print("   face_database.pkl - Face embeddings database (with mask embeddings)")
         if os.path.exists('face_recognition_model.pkl'):
-            print("  ✅ face_recognition_model.pkl - Trained ML model") 
+            print("   face_recognition_model.pkl - Trained ML model") 
         if os.path.exists('model_info.pkl'):
-            print("  ✅ model_info.pkl - Model metadata")
+            print("   model_info.pkl - Model metadata")
             
-        print(f"\n🚀 System is ready for mask-aware recognition!")
-        print(f"💡 Next steps:")
+        print(f"\n System is ready for mask-aware recognition!")
+        print(f" Next steps:")
         print(f"   1. Run 'python main.py' to start the backend server")
         print(f"   2. Run 'npm start' in frontend/ to start the web interface")
         print(f"   3. Register users and test mask recognition!")
         
     else:
         print("\n" + "=" * 70) 
-        print("⚠️  NO TRAINING DATA FOUND")
+        print("  NO TRAINING DATA FOUND")
         print("=" * 70)
-        print("💡 The system will work in registration-only mode.")
-        print("📋 Possible issues:")
-        print("  • No internet connection for Kaggle download")
-        print("  • Kaggle API credentials not set")
-        print("  • Dataset extraction failed")
-        print("\n🚀 System is still ready - you can:")
-        print("  • Start the API: python main.py")
-        print("  • Register faces manually via the frontend")
-        print("  • System will use cosine similarity for recognition")
+        print(" The system will work in registration-only mode.")
+        print(" Possible issues:")
+        print("   No internet connection for Kaggle download")
+        print("   Kaggle API credentials not set")
+        print("   Dataset extraction failed")
+        print("\n System is still ready - you can:")
+        print("   Start the API: python main.py")
+        print("   Register faces manually via the frontend")
+        print("   System will use cosine similarity for recognition")
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n\n⚠️ Training interrupted by user")
+        print("\n\n Training interrupted by user")
     except Exception as e:
-        print(f"\n\n❌ Training failed with error: {e}")
+        print(f"\n\n Training failed with error: {e}")
         import traceback
         traceback.print_exc()
-        print("\n💡 Common solutions:")
-        print("  • Check internet connection")
-        print("  • Install missing dependencies: pip install -r requirements.txt")
-        print("  • Set Kaggle API credentials")
-        print("  • Run as administrator if file permission errors")
+        print("\n Common solutions:")
+        print("   Check internet connection")
+        print("   Install missing dependencies: pip install -r requirements.txt")
+        print("   Set Kaggle API credentials")
+        print("   Run as administrator if file permission errors")

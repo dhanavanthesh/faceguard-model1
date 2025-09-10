@@ -261,6 +261,71 @@ class ApiService {
     }
   }
 
+  // Sign Detection API Methods
+
+  async getSignDetectionStatus() {
+    try {
+      const response = await apiClient.get('/api/signs/status');
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  async detectSigns(requestData) {
+    try {
+      const response = await apiClient.post('/api/signs/detect', requestData);
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  async getSignStatistics() {
+    try {
+      const response = await apiClient.get('/api/signs/statistics');
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  async getSignDetectionLogs(limit = 100) {
+    try {
+      const response = await apiClient.get(`/api/signs/logs?limit=${limit}`);
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  async getEmergencySignLogs(limit = 50) {
+    try {
+      const response = await apiClient.get(`/api/signs/emergency-logs?limit=${limit}`);
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  async getSupportedGestures() {
+    try {
+      const response = await apiClient.get('/api/signs/gestures');
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  async clearSignDetectionLogs() {
+    try {
+      const response = await apiClient.delete('/api/signs/logs');
+      return response.data;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
   // Helper Methods
 
   handleError(error) {

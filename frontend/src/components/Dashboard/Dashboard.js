@@ -23,7 +23,9 @@ import {
   ReloadOutlined,
   TrophyOutlined,
   ClockCircleOutlined,
-  CheckCircleOutlined
+  CheckCircleOutlined,
+  InteractionOutlined,
+  WarningOutlined
 } from '@ant-design/icons';
 import { 
   LineChart, 
@@ -52,6 +54,8 @@ const Dashboard = () => {
   const [trends, setTrends] = useState([]);
   const [topUsers, setTopUsers] = useState([]);
   const [performance, setPerformance] = useState({});
+  const [signStats, setSignStats] = useState(null);
+  const [emergencyLogs, setEmergencyLogs] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
@@ -64,17 +68,44 @@ const Dashboard = () => {
       setError(null);
 
       // Load all dashboard data in parallel
-      const [statsData, trendsData, topUsersData, performanceData] = await Promise.all([
+      const promises = [
         apiService.getDashboardStats(),
         apiService.getRecognitionTrends(7),
         apiService.getTopRecognizedUsers(5),
         apiService.getSystemPerformance()
-      ]);
+      ];
 
-      setDashboardData(statsData);
-      setTrends(trendsData.trends || []);
-      setTopUsers(topUsersData.top_users || []);
-      setPerformance(performanceData);
+      // Load sign detection data if available
+      try {
+        promises.push(apiService.getSignStatistics());
+        promises.push(apiService.getEmergencySignLogs(5));
+      } catch (signError) {
+        console.warn('Sign detection not available:', signError);
+      }
+
+      const results = await Promise.allSettled(promises);
+      
+      // Extract successful results
+      const [statsResult, trendsResult, topUsersResult, performanceResult, signStatsResult, emergencyLogsResult] = results;
+
+      if (statsResult.status === 'fulfilled') {
+        setDashboardData(statsResult.value);
+      }
+      if (trendsResult.status === 'fulfilled') {
+        setTrends(trendsResult.value.trends || []);
+      }
+      if (topUsersResult.status === 'fulfilled') {
+        setTopUsers(topUsersResult.value.top_users || []);
+      }
+      if (performanceResult.status === 'fulfilled') {
+        setPerformance(performanceResult.value);
+      }
+      if (signStatsResult && signStatsResult.status === 'fulfilled') {
+        setSignStats(signStatsResult.value.statistics);
+      }
+      if (emergencyLogsResult && emergencyLogsResult.status === 'fulfilled') {
+        setEmergencyLogs(emergencyLogsResult.value.logs || []);
+      }
 
     } catch (error) {
       console.error('Error loading dashboard data:', error);
@@ -117,7 +148,13 @@ const Dashboard = () => {
     );
   }
 
-  const { basic_stats, recognition_stats, ml_model_stats, user_distribution, recent_activity } = dashboardData;
+  const { 
+    basic_stats = {}, 
+    recognition_stats = {}, 
+    ml_model_stats = {}, 
+    user_distribution = {}, 
+    recent_activity = [] 
+  } = dashboardData || {};
 
   // Chart colors
   const colors = ['#1890ff', '#52c41a', '#faad14', '#f5222d', '#722ed1'];
@@ -227,6 +264,108 @@ const Dashboard = () => {
           </Card>
         </Col>
       </Row>
+
+      {/* Sign Detection Statistics */}
+      {signStats && (
+        <Row gutter={[16, 16]} style={{ marginBottom: '24px' }}>
+          <Col span={24}>
+            <Title level={4}>
+              <InteractionOutlined style={{ marginRight: '8px', color: '#1890ff' }} />
+              Sign Detection Overview
+            </Title>
+          </Col>
+          
+          <Col xs={24} sm={12} lg={6}>
+            <Card>
+              <Statistic
+                title="Gesture Detections"
+                value={signStats?.total_detections || 0}
+                prefix={<InteractionOutlined />}
+                valueStyle={{ color: '#1890ff' }}
+              />
+              <div style={{ marginTop: '8px' }}>
+                <Text type="secondary">
+                  Avg Confidence: {((signStats?.avg_confidence || 0) * 100).toFixed(1)}%
+                </Text>
+              </div>
+            </Card>
+          </Col>
+
+          <Col xs={24} sm={12} lg={6}>
+            <Card>
+              <Statistic
+                title="Emergency Alerts"
+                value={signStats?.emergency_detections || 0}
+                prefix={<WarningOutlined />}
+                valueStyle={{ 
+                  color: (signStats?.emergency_detections || 0) > 0 ? '#ff4d4f' : '#52c41a' 
+                }}
+              />
+              <div style={{ marginTop: '8px' }}>
+                <Text type="secondary">
+                  Rate: {(signStats?.emergency_rate || 0).toFixed(1)}%
+                </Text>
+              </div>
+            </Card>
+          </Col>
+
+          <Col xs={24} sm={12} lg={12}>
+            <Card>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <div>
+                  <Text strong>Most Common Gesture</Text>
+                  <div style={{ fontSize: '20px', marginTop: '8px' }}>
+                    {signStats?.most_common_gesture && signStats.most_common_gesture !== 'None' 
+                      ? signStats.most_common_gesture.replace(/_/g, ' ').toLowerCase().replace(/\b\w/g, l => l.toUpperCase())
+                      : 'No gestures detected'
+                    }
+                  </div>
+                </div>
+                <InteractionOutlined style={{ fontSize: '48px', color: '#d9d9d9' }} />
+              </div>
+            </Card>
+          </Col>
+        </Row>
+      )}
+
+      {/* Emergency Gesture Alerts */}
+      {emergencyLogs && emergencyLogs.length > 0 && (
+        <Row gutter={[16, 16]} style={{ marginBottom: '24px' }}>
+          <Col span={24}>
+            <Card 
+              title={
+                <Space>
+                  <WarningOutlined style={{ color: '#ff4d4f' }} />
+                  Recent Emergency Gestures
+                </Space>
+              }
+              size="small"
+            >
+              <List
+                dataSource={emergencyLogs}
+                renderItem={(item) => (
+                  <List.Item>
+                    <List.Item.Meta
+                      avatar={<Badge status="error" />}
+                      title={
+                        <Space>
+                          <Text strong>
+                            {item.gesture.replace(/_/g, ' ').toLowerCase().replace(/\b\w/g, l => l.toUpperCase())}
+                          </Text>
+                          <Text type="secondary">
+                            {(item.confidence * 100).toFixed(1)}% confidence
+                          </Text>
+                        </Space>
+                      }
+                      description={new Date(item.timestamp).toLocaleString()}
+                    />
+                  </List.Item>
+                )}
+              />
+            </Card>
+          </Col>
+        </Row>
+      )}
 
       {/* Charts Row */}
       <Row gutter={[16, 16]} style={{ marginBottom: '24px' }}>

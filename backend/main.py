@@ -22,6 +22,10 @@ import uuid
 import shutil
 from datetime import datetime
 from pathlib import Path
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 # Import our training module
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -34,6 +38,10 @@ from training import (
     save_face_database,
     face_database
 )
+
+# Import sign detection modules
+from sign_detection import SimplifiedSignDetector, initialize_sign_detector, get_sign_detector
+from sign_training import SignTrainingManager
 
 # Lifespan event handler
 @asynccontextmanager
@@ -52,10 +60,35 @@ async def lifespan(app: FastAPI):
         load_face_database()
         # Load user database
         load_user_database()
+        
+        # Initialize sign detection
+        global sign_detector_initialized, sign_training_manager
+        if initialize_sign_detector():
+            sign_detector_initialized = True
+            print("✅ SimplifiedSignDetector initialized successfully!")
+            
+            # Initialize training manager separately (optional for simplified detector)
+            try:
+                sign_training_manager = SignTrainingManager()
+                # Load trained models if available (optional)
+                if sign_training_manager.load_trained_models():
+                    print("📚 Sign detection with trained models initialized!")
+                else:
+                    print("📚 Sign detection running without trained models (using MediaPipe only)")
+            except Exception as e:
+                print(f"⚠️  Training manager initialization failed: {e}")
+                print("✅ Sign detection still working with simplified MediaPipe-only detection")
+                sign_training_manager = None
+        else:
+            print("❌ Sign detection initialization failed")
+            sign_detector_initialized = False
+        
         system_initialized = True
         print("System initialized successfully!")
+        print(f"🔍 DEBUG: system_initialized is now: {system_initialized}")
     else:
         print("System initialization failed")
+        system_initialized = False
     
     yield
     
@@ -87,6 +120,8 @@ app.add_middleware(
 # Global state
 system_initialized = False
 training_status = {"is_training": False, "progress": 0, "message": "Not started"}
+sign_training_manager = None
+sign_detector_initialized = False
 
 # Pydantic models for API requests
 class RegisterRequest(BaseModel):
@@ -97,6 +132,9 @@ class RecognizeRequest(BaseModel):
     image_data: str  # base64 encoded
 
 class AddSampleRequest(BaseModel):
+    image_data: str  # base64 encoded
+
+class SignDetectionRequest(BaseModel):
     image_data: str  # base64 encoded
 
 # Startup is now handled by lifespan context manager above
@@ -116,7 +154,19 @@ async def health_check():
     return {
         "status": "healthy" if system_initialized else "initializing",
         "database_size": len(face_database),
-        "insightface_loaded": training.app is not None
+        "insightface_loaded": training.app is not None,
+        "system_initialized": system_initialized
+    }
+
+@app.get("/debug")
+async def debug_status():
+    """Debug endpoint to check system state"""
+    global system_initialized, sign_detector_initialized
+    return {
+        "system_initialized": system_initialized,
+        "sign_detector_initialized": sign_detector_initialized,
+        "sign_detector_available": get_sign_detector() is not None,
+        "timestamp": datetime.now().isoformat()
     }
 
 @app.get("/api/dashboard/stats")
@@ -1111,6 +1161,322 @@ async def get_recognition_logs(limit: int = 100):
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving logs: {str(e)}")
+
+# Sign Detection API Endpoints
+
+def log_sign_detection_event(gesture: str, confidence: float, is_emergency: bool, hands_detected: int = 0, pose_detected: bool = False):
+    """Log sign detection events to JSON file for tracking"""
+    try:
+        log_entry = {
+            "timestamp": datetime.now().isoformat(),
+            "gesture": gesture,
+            "confidence": float(confidence),
+            "is_emergency": is_emergency,
+            "hands_detected": hands_detected,
+            "pose_detected": pose_detected,
+            "type": "sign_detection"
+        }
+        
+        log_file = "sign_detection_logs.json"
+        
+        # Load existing logs or create new list
+        try:
+            with open(log_file, 'r') as f:
+                logs = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            logs = []
+            
+        # Add new log entry
+        logs.append(log_entry)
+        
+        # Keep only last 1000 entries to prevent file from growing too large
+        if len(logs) > 1000:
+            logs = logs[-1000:]
+            
+        # Save back to file
+        with open(log_file, 'w') as f:
+            json.dump(logs, f, indent=2)
+            
+        print(f"✅ Sign detection logged: {gesture} - {'EMERGENCY' if is_emergency else 'NORMAL'}")
+        
+    except Exception as e:
+        print(f"❌ Error logging sign detection: {e}")
+
+@app.get("/api/signs/status")
+async def get_sign_detection_status():
+    """Get sign detection system status"""
+    return {
+        "success": True,
+        "status": "running" if sign_detector_initialized else "not_initialized",
+        "mediapipe_loaded": sign_detector_initialized,
+        "models_available": True,  # Sign detection works with MediaPipe landmarks, no ML models needed
+        "gesture_detection_ready": sign_detector_initialized,
+        "ml_models_trained": sign_training_manager is not None and sign_training_manager.model_trained if sign_training_manager else False
+    }
+
+@app.post("/api/signs/detect")
+async def detect_signs(request: SignDetectionRequest):
+    """Detect signs/gestures in uploaded image"""
+    if not sign_detector_initialized:
+        raise HTTPException(status_code=503, detail="Sign detection not initialized")
+        
+    try:
+        sign_detector = get_sign_detector()
+        if sign_detector is None:
+            raise HTTPException(status_code=503, detail="Sign detector not available")
+        
+        # Process base64 image
+        image_rgb = process_base64_image(request.image_data)
+        
+        # Use the sign detector (which now handles both MediaPipe and fallback modes)
+        result = sign_detector.process_frame(image_rgb)
+        
+        # Log the detection
+        log_sign_detection_event(
+            gesture=result.get('gesture', 'NONE'),
+            confidence=result.get('confidence', 0.0),
+            is_emergency=result.get('is_emergency', False),
+            hands_detected=len(result.get('landmarks', {}).get('hands', [])),
+            pose_detected=result.get('landmarks', {}).get('pose') is not None
+        )
+        
+        return {
+            "success": True,
+            "gesture": result.get('gesture', 'NONE'),
+            "confidence": result.get('confidence', 0.0),
+            "is_emergency": result.get('is_emergency', False),
+            "hands_detected": len(result.get('landmarks', {}).get('hands', [])),
+            "pose_detected": result.get('landmarks', {}).get('pose') is not None,
+            "timestamp": result.get('timestamp'),
+            "landmarks": result.get('landmarks', {})
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Sign detection error: {str(e)}")
+
+@app.post("/api/signs/detect-file")
+async def detect_signs_file(file: UploadFile = File(...)):
+    """Detect signs/gestures in uploaded image file"""
+    if not sign_detector_initialized:
+        raise HTTPException(status_code=503, detail="Sign detection not initialized")
+        
+    if not file.content_type.startswith('image/'):
+        raise HTTPException(status_code=400, detail="File must be an image")
+        
+    try:
+        sign_detector = get_sign_detector()
+        if sign_detector is None:
+            raise HTTPException(status_code=503, detail="Sign detector not available")
+        
+        # Read and process image
+        file_content = await file.read()
+        image_rgb = process_image_file(file_content)
+        
+        # Process frame for gesture detection
+        result = sign_detector.process_frame(image_rgb)
+        
+        # Log the detection
+        log_sign_detection_event(
+            gesture=result.get('gesture', 'NONE'),
+            confidence=result.get('confidence', 0.0),
+            is_emergency=result.get('is_emergency', False),
+            hands_detected=len(result.get('landmarks', {}).get('hands', [])),
+            pose_detected=result.get('landmarks', {}).get('pose') is not None
+        )
+        
+        return {
+            "success": True,
+            "gesture": result.get('gesture', 'NONE'),
+            "confidence": result.get('confidence', 0.0),
+            "is_emergency": result.get('is_emergency', False),
+            "hands_detected": len(result.get('landmarks', {}).get('hands', [])),
+            "pose_detected": result.get('landmarks', {}).get('pose') is not None,
+            "timestamp": result.get('timestamp'),
+            "landmarks": result.get('landmarks', {})
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Sign detection error: {str(e)}")
+
+@app.get("/api/signs/logs")
+async def get_sign_detection_logs(limit: int = 100):
+    """Get recent sign detection logs"""
+    try:
+        log_file = "sign_detection_logs.json"
+        
+        try:
+            with open(log_file, 'r') as f:
+                logs = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            logs = []
+            
+        # Return most recent logs first
+        recent_logs = logs[-limit:] if len(logs) > limit else logs
+        recent_logs.reverse()
+        
+        return {
+            "success": True,
+            "logs": recent_logs,
+            "total": len(logs)
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving sign logs: {str(e)}")
+
+@app.get("/api/signs/emergency-logs")
+async def get_emergency_sign_logs(limit: int = 50):
+    """Get recent emergency sign detection logs"""
+    try:
+        sign_detector = get_sign_detector()
+        if sign_detector is None:
+            return {"success": False, "logs": [], "message": "Sign detector not available"}
+        
+        emergency_logs = sign_detector.get_emergency_logs(limit)
+        
+        return {
+            "success": True,
+            "logs": emergency_logs,
+            "total": len(emergency_logs)
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving emergency logs: {str(e)}")
+
+@app.get("/api/signs/statistics")
+async def get_sign_statistics():
+    """Get sign detection statistics"""
+    try:
+        sign_detector = get_sign_detector()
+        if sign_detector is None:
+            return {
+                "success": False,
+                "message": "Sign detector not available",
+                "statistics": {}
+            }
+        
+        stats = sign_detector.get_statistics()
+        
+        return {
+            "success": True,
+            "statistics": stats
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving statistics: {str(e)}")
+
+@app.post("/api/signs/train")
+async def train_sign_detection_models():
+    """Train sign detection models"""
+    if not sign_detector_initialized:
+        raise HTTPException(status_code=503, detail="Sign detection not initialized")
+        
+    try:
+        global sign_training_manager
+        if sign_training_manager is None:
+            sign_training_manager = SignTrainingManager()
+        
+        # Start training process (in production, use background task)
+        success = sign_training_manager.preprocess_training_data()
+        if success:
+            success = sign_training_manager.train_models()
+        
+        if success:
+            stats = sign_training_manager.get_training_statistics()
+            return {
+                "success": True,
+                "message": "Sign detection models trained successfully",
+                "statistics": stats
+            }
+        else:
+            return {
+                "success": False,
+                "message": "Training failed - no data or insufficient samples"
+            }
+        
+    except Exception as e:
+        return {
+            "success": False,
+            "message": f"Training error: {str(e)}"
+        }
+
+@app.post("/api/signs/download-datasets")
+async def download_sign_datasets():
+    """Download sign language datasets"""
+    if not sign_detector_initialized:
+        raise HTTPException(status_code=503, detail="Sign detection not initialized")
+        
+    try:
+        global sign_training_manager
+        if sign_training_manager is None:
+            sign_training_manager = SignTrainingManager()
+        
+        # Download datasets (in production, use background task)
+        success = sign_training_manager.download_sign_datasets()
+        
+        return {
+            "success": success,
+            "message": "Dataset download completed" if success else "Dataset download failed"
+        }
+        
+    except Exception as e:
+        return {
+            "success": False,
+            "message": f"Dataset download error: {str(e)}"
+        }
+
+@app.delete("/api/signs/logs")
+async def clear_sign_detection_logs():
+    """Clear sign detection logs"""
+    try:
+        # Clear file-based logs
+        log_file = "sign_detection_logs.json"
+        if os.path.exists(log_file):
+            os.remove(log_file)
+        
+        # Clear detector logs
+        sign_detector = get_sign_detector()
+        if sign_detector:
+            sign_detector.clear_logs()
+        
+        return {
+            "success": True,
+            "message": "Sign detection logs cleared"
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error clearing logs: {str(e)}")
+
+@app.get("/api/signs/gestures")
+async def get_supported_gestures():
+    """Get list of supported gestures - simplified system"""
+    return {
+        "success": True,
+        "gestures": [
+            {
+                "name": "THUMBS_UP",
+                "description": "Thumb extended upward",
+                "emergency": False,
+                "instructions": "Make a fist with thumb pointing up",
+                "icon": "👍"
+            },
+            {
+                "name": "PALM_STOP", 
+                "description": "Open palm facing camera (stop signal)",
+                "emergency": False,
+                "instructions": "Show open palm with all fingers extended facing the camera",
+                "icon": "✋"
+            },
+            {
+                "name": "ARMS_CROSSED",
+                "description": "Both arms crossed over chest (Emergency Signal)",
+                "emergency": True,
+                "instructions": "Cross both arms over your chest - this triggers emergency alerts",
+                "icon": "❌"
+            }
+        ],
+        "note": "Simplified system with 3 core gestures for better reliability",
+        "total_gestures": 3
+    }
 
 if __name__ == "__main__":
     import uvicorn
