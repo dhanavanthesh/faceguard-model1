@@ -38,3 +38,12 @@ python-dotenv
 # pytest
 # black
 # flake8
+
+#emergency detection packages
+flask==2.3.3
+flask-socketio==5.3.6
+eventlet==0.33.3
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+numpy==1.26.4
+Pillow==10.4.0
