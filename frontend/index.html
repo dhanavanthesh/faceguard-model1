@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>emergency signs detetion</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Socket.IO client -->
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>emergency signs detetion</h1>
+      <p class="subtitle">Real-time gesture & body-sign detection — skeleton overlay, confidence, logs & CSV download</p>
+    </header>
+
+    <main>
+      <section class="video-panel">
+        <div class="video-wrap">
+          <video id="video" autoplay muted playsinline></video>
+          <canvas id="overlay"></canvas>
+        </div>
+        <div class="controls">
+          <button id="startBtn">Start Detection</button>
+          <button id="stopBtn" disabled>Stop</button>
+          <button id="downloadLog">Download Log</button>
+        </div>
+      </section>
+
+      <aside class="info-panel">
+        <div class="current-detection card">
+          <h2>Current Detection</h2>
+          <div id="detectionName">—</div>
+          <div id="detectionConfidence">Confidence: —</div>
+          <div class="sample-signs" id="signExamples">
+            <!-- Sample sign images and descriptions will be injected -->
+          </div>
+        </div>
+
+        <div class="log card">
+          <h2>Detection Log</h2>
+          <table id="logTable">
+            <thead><tr><th>Time</th><th>Event</th><th>Confidence</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <small>Powered by MediaPipe Holistic (pose + hands). Built for emergency gesture detection.</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
